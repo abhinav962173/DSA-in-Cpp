@@ -26,6 +26,7 @@
 | `arithmetic_operators.cpp` | Arithmetic | `+`, `-`, `*`, `/`, `%` |
 | `assignment_operators.cpp` | Assignment | `=`, `+=`, `-=`, `*=`, `/=`, `%=` |
 | `relational_operators.cpp` | Relational | `==`, `!=`, `>`, `<`, `>=`, `<=` |
+| `logical_operators.cpp` | Logical | `&&`, `!`, `||` |
 | `constant.cpp` | Constants | `const` keyword — values that never change |
 | `macros.cpp` | Macros | `#define` — compile-time constants |
 | `explicit_type_casting.cpp` | Type Casting | Manual conversion: `(int)3.7` → `3` |
@@ -56,6 +57,9 @@ a += 5;   // a = a + 5
 
 // Relational
 cout << (a > b);   // Output: 1 (true)
+
+// Logical 
+cout << (5 > 3 && 100 > 90)     // Output: 1 (true)
 
 // Constants
 const float PI = 3.14159;
