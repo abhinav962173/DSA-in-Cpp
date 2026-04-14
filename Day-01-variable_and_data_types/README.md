@@ -1,70 +1,85 @@
 <div align="center">
 
-# 📅 Day 01 — Variables & Data Types
+# 📘 Day 01 — Variables & Data Types in C++
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Day](https://img.shields.io/badge/Day-01-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![C++](https://img.shields.io/badge/Language-C%2B%2B17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Day](https://img.shields.io/badge/Day-01%20%2F%2060-ff6b35?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-00d4ff?style=for-the-badge)
+![Author](https://img.shields.io/badge/Author-Abhinav-green?style=for-the-badge)
 
-**The foundation of everything. If you don't understand this, nothing else makes sense.**
+> **60 Days of C++ Challenge** — The foundation of everything. If you don't understand this, nothing else makes sense.
 
 </div>
 
 ---
 
-## 🧠 What I Learned
+## 🧠 What I Learned Today
 
-> Variables are containers. Data types define what goes inside.  
-> This day was all about understanding how C++ stores and handles data.
-
----
-
-## 📂 Files Overview
-
-| File | Concept | Description |
-|------|---------|-------------|
-| `variables_basics.cpp` | Variables | Declaration, initialization, naming rules |
-| `data_types.cpp` | Data Types | int, float, double, char, bool |
-| `input_output.cpp` | I/O | `cin` and `cout` in action |
-| `comments_demo.cpp` | Comments | Single-line `//` and multi-line `/* */` |
-| `area_of_circle.cpp` | Math | Area = π × r² using float |
-| `area_of_square.cpp` | Math | Area = side × side |
-| `basic_calculator.cpp` | Arithmetic | +, -, *, / with user input |
-| `calculate_average.cpp` | Logic | Sum of numbers / count |
-| `calculate_gst_bill.cpp` | Real-world | GST percentage on a bill |
-| `calculate_simple_interest.cpp` | Formula | SI = (P × R × T) / 100 |
-| `pattern_print.cpp` | Output | Basic pattern using `cout` |
+Variables are **containers** that store data, and data types define **what kind of data** goes inside them. Today I explored how C++ stores and handles different types of data in memory.
 
 ---
 
-## 🔑 Key Concepts
+## 📁 Files
 
-- ✅ What are variables and how to declare them
-- ✅ Primitive data types in C++ (`int`, `float`, `double`, `char`, `bool`)
-- ✅ Taking user input with `cin` and printing with `cout`
-- ✅ Writing comments for clean, readable code
-- ✅ Applying formulas using variables in real-world programs
+| # | File | Description |
+|---|------|-------------|
+| 01 | `variables_basics.cpp` | Declaration, initialization, naming rules |
+| 02 | `data_types.cpp` | int, float, double, char, bool |
+| 03 | `input_output.cpp` | `cin` and `cout` in action |
+| 04 | `comments_demo.cpp` | Single-line `//` and multi-line `/* */` |
+| 05 | `area_of_circle.cpp` | Area = π × r² using float |
+| 06 | `area_of_square.cpp` | Area = side × side |
+| 07 | `basic_calculator.cpp` | +, -, *, / with user input |
+| 08 | `calculate_average.cpp` | Sum of numbers / count |
+| 09 | `calculate_gst_bill.cpp` | GST percentage on a bill |
+| 10 | `calculate_simple_interest.cpp` | SI = (P × R × T) / 100 |
+| 11 | `pattern_print.cpp` | Basic pattern using `cout` |
 
 ---
 
-## 💡 Key Syntax
+## 💡 Syntax Reference
 
+### 1️⃣ Variable Declaration
 ```cpp
-// Variable Declaration
-int age = 20;
-float marks = 95.5;
-char grade = 'A';
+int age      = 20;
+float marks  = 95.5;
+char grade   = 'A';
 bool isPassed = true;
+```
 
-// Input / Output
+### 2️⃣ Input / Output
+```cpp
 cin >> age;
 cout << "Age is: " << age << endl;
 ```
+
+### 3️⃣ Real-world Formula
+```cpp
+// Simple Interest
+float SI = (P * R * T) / 100;
+
+// Area of Circle
+float area = 3.14159 * r * r;
+```
+
+---
+
+## ✅ Challenges Completed
+
+- [x] Variable declaration & initialization
+- [x] All primitive data types practiced
+- [x] User input with `cin` and output with `cout`
+- [x] Area of Circle & Square
+- [x] Basic Calculator
+- [x] GST Bill & Simple Interest Calculator
+- [x] Pattern printing
 
 ---
 
 <div align="center">
 
-[⬅️ Back to Main Repo](../README.md) | [➡️ Day 02 - Operators](../Day-02-operators/README.md)
+**Author:** Abhinav &nbsp;|&nbsp; **Tool:** VS Code &nbsp;|&nbsp; **Language:** C++17
+
+🔥 **Day 1 / 60 Complete**
 
 </div>
