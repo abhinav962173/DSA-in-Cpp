@@ -1,94 +1,79 @@
-# Day 02 – Operators in C++
+<div align="center">
 
-## Overview
-Is folder me C++ ke different types ke operators cover kiye gaye hain. Yeh programming ka basic aur important concept hai jo calculations, comparisons aur logic building me use hota hai.
+# 📅 Day 02 — Operators & Type Casting
 
----
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Day](https://img.shields.io/badge/Day-02-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-## Topics Covered
+**Operators are the verbs of programming. They make things happen.**
 
-### 1. Arithmetic Operators
-File: arithmetic_operators.cpp  
-- Addition (+)  
-- Subtraction (-)  
-- Multiplication (*)  
-- Division (/)  
-- Modulus (%)  
+</div>
 
 ---
 
-### 2. Assignment Operators
-File: assignment_operators.cpp  
-- =  
-- +=  
-- -=  
-- *=  
-- /=  
+## 🧠 What I Learned
+
+> C++ has a rich set of operators — from basic arithmetic to type manipulation.  
+> This day covered every major operator type plus how C++ handles type conversions.
 
 ---
 
-### 3. Relational Operators
-File: relational_operators.cpp  
-- == (Equal to)  
-- != (Not equal to)  
-- > (Greater than)  
-- < (Less than)  
-- >= (Greater than equal to)  
-- <= (Less than equal to)  
+## 📂 Files Overview
+
+| File | Concept | Description |
+|------|---------|-------------|
+| `arithmetic_operators.cpp` | Arithmetic | `+`, `-`, `*`, `/`, `%` |
+| `assignment_operators.cpp` | Assignment | `=`, `+=`, `-=`, `*=`, `/=`, `%=` |
+| `relational_operators.cpp` | Relational | `==`, `!=`, `>`, `<`, `>=`, `<=` |
+| `constant.cpp` | Constants | `const` keyword — values that never change |
+| `macros.cpp` | Macros | `#define` — compile-time constants |
+| `explicit_type_casting.cpp` | Type Casting | Manual conversion: `(int)3.7` → `3` |
+| `implicit_type_casting.cpp` | Type Casting | Auto conversion by compiler |
+| `predict_output.cpp` | Practice | Predict what the code outputs before running |
 
 ---
 
-### 4. Type Casting
+## 🔑 Key Concepts
 
-#### Implicit Type Casting  
-File: implicit_type_casting.cpp  
-- Automatically compiler karta hai  
-
-#### Explicit Type Casting  
-File: explicit_type_casting.cpp  
-- Manually type convert karte hain  
+- ✅ All arithmetic, assignment, and relational operators
+- ✅ Difference between `const` and `#define`
+- ✅ Implicit vs Explicit Type Casting
+- ✅ How compiler promotes/demotes data types automatically
+- ✅ Output prediction — sharpens logical thinking
 
 ---
 
-### 5. Constants
-File: constant.cpp  
-- const keyword ka use  
-- Value change nahi hoti  
+## 💡 Key Syntax
+
+```cpp
+// Arithmetic
+int a = 10, b = 3;
+cout << a % b;   // Output: 1
+
+// Assignment Shorthand
+a += 5;   // a = a + 5
+
+// Relational
+cout << (a > b);   // Output: 1 (true)
+
+// Constants
+const float PI = 3.14159;
+#define MAX 100
+
+// Explicit Type Casting
+float x = 3.99;
+int y = (int)x;   // y = 3
+
+// Implicit Type Casting
+int p = 5;
+float q = p;   // q = 5.0 (auto promoted)
+```
 
 ---
 
-### 6. Macros
-File: macros.cpp  
-- #define ka use  
-- Compile-time replacement  
+<div align="center">
 
----
+[⬅️ Day 01 - Variables](../Day-01-variable_and_data_types/README.md) | [⬅️ Back to Main Repo](../README.md)
 
-### 7. Predict Output
-File: predict_output.cpp  
-- Logic samajhne ke liye questions  
-
----
-
-##  How to Run
-
-g++ filename.cpp -o output  
-./output  
-
-Example:
-
-g++ arithmetic_operators.cpp -o arithmetic  
-./arithmetic  
-
----
-
-## Learning Goal
-- Operators ka basic clear karna  
-- Logic building improve karna  
-- Coding me accuracy lana  
-
----
-
-## Notes
-- Har concept ko run karke samajhna best hai  
-- Output predict karne ki habit develop karo
+</div>
